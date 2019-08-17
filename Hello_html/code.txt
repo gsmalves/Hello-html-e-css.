@@ -1,0 +1,113 @@
+Meu primeiro arquivo CSS*/
+
+p{
+	color:white;
+	
+	font-size:15px;
+	font-family:Helvetica;
+	
+}
+body{
+	background: black;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+	color: white;
+}
+header{
+	background-color: #6E1ED3;
+	height: 80px;
+	padding: 20px;
+
+}
+footer{
+	clear: both;
+   background-color: #6E1ED3;
+   height: 50px;
+   text-align:center;
+   padding:10px; }
+h1{
+   color: yellow;
+   text-align: center;
+   margin: 0 0 50px 0;
+  
+}
+#logo{
+	float: left;
+}
+#menu{
+
+	float: right;
+	margin-top: 30px;
+}
+#menu a{
+	text-decoration: none;
+	color:pink;
+	text-shadow: 1px 1px #111111
+	padding: 40px 40px;
+
+}
+#menu a:hover{
+  background-color: white;
+  color: #6E1ED3;
+}
+#principal{
+    clear: both;
+    background-image: url('cidade.jpg');
+    background-size: 100%;
+	min-height:400px;
+	padding: 100px 0 0 0;
+
+  }
+
+.container{
+	width: 960px;
+	margin: auto;
+
+}
+
+
+
+
+____________________________________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Página completa</title>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+
+    
+        <header>
+            <div class = "container">
+                <div id="logo"> 
+                <img src="DDD.png" height="77px">
+                </div>
+                <div id="menu">
+                    <a href="#">Home</a>
+                    <a href="#">Quem somos</a>
+                    <a href="#">Serviços</a>
+                    <a href="#">Fale Conosco</a>
+                </div>
+            </div>
+        </header>
+        
+        <div id="principal">
+            <div class="container">
+                <h1>Bem vindo a pagina</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel purus a sem fermentum sollicitudin. Mauris dapibus eros in ultrices sollicitudin. Donec finibus magna quis nunc sollicitudin, quis placerat tortor venenatis. Pellentesque consequat feugiat magna id gravida. Praesent rhoncus nisl vitae elit sollicitudin accumsan. Sed quis massa nec nunc semper dignissim id ac ex. Curabitur ac erat eu enim bibendum vulputate. Maecenas id orci interdum, tempor ex in, tempus justo. Aliquam eget diam non mauris malesuada faucib</p>
+            </div>
+        </div>
+
+
+        <footer>Desenvolvido por Gustavo</footer>
+   
+</body>
+</html>
